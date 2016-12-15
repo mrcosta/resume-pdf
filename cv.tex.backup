@@ -1,0 +1,115 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\addbibresource{bibliography.bib}
+
+\begin{document}
+\header{mateus}{costa}
+       {developer}
+
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{about}
+    Belo Horizonte - Brazil
+    Single
+    24 years old    
+  \section{mail}
+    mateuscomp\\@gmail.com 
+  \section{skype}
+    mateuscomp
+  \section{languages}
+    fluent english in reading and speaking, and intermediate level in writing.   
+  %\section{programming}
+  % 4 years with Java\\
+  % mateus
+  \section{personal skills}
+  curious
+  proactive
+  good listener
+  working as a team
+  sharing
+\end{aside}
+
+\section{who I am and my objective:}
+
+A motivated, curious and proactive developer with a passion for building
+software with creative solutions. Currently, I'm working with agile, TDD, continuous integration and cloud,
+so hope that I can help and learn more with the team.
+I'm very interested in learning more about this position 
+because ThoughWorks seems to be a place that fits in the way that I like to work.
+
+
+\section{where I studied:}
+
+\begin{entrylist}
+  \entry
+    {2012 – 2014}
+    %{Ph.D. {\normalfont candidate in Computer Science}}
+    {Master's Degree}
+    {\textbf{CEFET-MG}}
+    {\textbf{Course:} Mathematical and Computational Modeling\\ \textbf{Study Line:} Modeling, Optimization and Process Improvement}
+  \entry
+    {2008 – 2011}
+    {Bachelor's Degree}
+    {\textbf{UNIFOR-MG}}
+    {\textbf{Course:} Computer Science}  
+\end{entrylist}
+
+\section{what I've been working:}
+\begin{entrylist}
+  \entry
+    {2013 - now}
+    {{\normalfont Working at \textbf{FITec} as a Software Engineer,  I'm helping a team distributed in 3 countries
+    to migrate an existing software, that handles with video processing, to the cloud (AWS). 
+    We also are building Grails applications for this system that provides some cool features.
+    We use current practices,
+    methodologies and tools that give us a better way to do our deliveries faster and with more quality. 
+    I think that the most cool thing that I helped to implement was the auto-scaling that reduced costs related with our cloud's bill in the company.}}{}{}
+\end{entrylist}
+
+\section{main programming languages that I know well:}
+Java (4 years)\\
+Groovy (1,5 years)\\
+SQL (1 year)\\
+Perl (1 year)
+
+\section{practices and methodologies that I work:}
+TDD\\
+Continuous Integration\\
+Automated Testing\\
+DevOps\\
+Agile (Scrum and XP)\\
+Cloud Computing
+
+\section{tools, frameworks and other things that I use:}
+Amazon Web Services\\
+AngularJS\\
+DBeaver\\
+Git\\
+Gradle\\
+Grails\\
+Groovy\\
+IntelliJ IDEA\\
+Jenkins\\
+Spock\\
+Tomcat\\
+Trello
+
+\section{conferences that I went:}
+
+\textbf{2014} - front<in>bh (Belo Horizonte) \\
+\textbf{2014} - AWS Summit (São Paulo) \\
+\textbf{2013} - QCon (São Paulo) \\
+\textbf{2013} - AWS Summit (São Paulo)
+
+\section{other things that I want to mention:}
+
+I started to do some presentations: I'm doing some internal presentations in my company about some
+recent implementations (Auto-Scaling).\\
+
+Before start to work at \textbf{FITec}, I worked with in a company customizing an ERP
+using Java EE and Perl. Also with Java EE, I worked as an internship in the TI department inside my college helping
+to create a huge application to support the students needs. During the college I also worked in a research
+related with the cement industry helping to build a java desktop application.
+
+\end{document}
