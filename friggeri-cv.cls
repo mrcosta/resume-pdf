@@ -136,6 +136,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 }
 
 \renewcommand{\section}[1]{
+  \fontsize{12pt}{12pt}
   \par\vspace{\parskip}
   {%
     \LARGE\headingfont\color{headercolor}%
